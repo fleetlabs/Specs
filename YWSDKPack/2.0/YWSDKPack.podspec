@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "http://127.0.0.1//wx.zip" }
+  s.source       = { :http => "http://oij8fhd3j.bkt.clouddn.com/wx/2.0/wx.zip" }
 
   s.resources = "wx/WXOUIModule.framework/Versions/A/Resources/*", "wx/WXOpenIMSDKFMWK.framework/Versions/A/Resources/*"
 
