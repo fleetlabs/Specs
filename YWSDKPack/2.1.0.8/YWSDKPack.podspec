@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YWSDKPack"
-  s.version      = "2.0.1"
+  s.version      = "2.1.0.8"
   s.summary      = "YWSDKPack is still in development"
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "http://oij8fhd3j.bkt.clouddn.com/wx/2.0.1/wx.zip" }
+  s.source       = { :http => "http://oij8fhd3j.bkt.clouddn.com/wx/2.1.0.8/wx.zip" }
 
   s.resources = "wx/WXOUIModule.framework/Versions/A/Resources/*", "wx/WXOpenIMSDKFMWK.framework/Versions/A/Resources/*"
 
