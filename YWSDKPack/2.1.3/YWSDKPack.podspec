@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YWSDKPack"
-  s.version      = "2.1.2.5"
+  s.version      = "2.1.3"
   s.summary      = "YWSDKPack is still in development"
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "http://oij8fhd3j.bkt.clouddn.com/wx/2.1.2.5/wx.zip" }
+  s.source       = { :http => "http://oij8fhd3j.bkt.clouddn.com/wx/2.1.3/wx.zip" }
 
   s.resources = "wx/WXOUIModule.framework/Versions/A/Resources/*", "wx/WXOpenIMSDKFMWK.framework/Versions/A/Resources/*"
 
@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
 
   s.libraries = "stdc++.6.0.9", "z", "resolv"
 
-  s.vendored_frameworks = 'wx/WXOUIModule.framework', 'wx/WXOpenIMSDKFMWK.framework', 'wx/YWExtensionForCustomerServiceFMWK.framework'
+  s.vendored_frameworks = 'wx/WXOUIModule.framework', 'wx/WXOpenIMSDKFMWK.framework', 'wx/YWExtensionForCustomerServiceFMWK.framework', 'wx/SecurityGuardSDK.framework', 'wx/SGMain.framework', 'wx/UTMini.framework'
 
 end
